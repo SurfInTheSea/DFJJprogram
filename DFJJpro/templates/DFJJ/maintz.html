@@ -1,0 +1,182 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en" style="font-size: 50px;">
+<head>
+    <link rel="shortcut icon" href="{%static '/favicon.ico' %}" />
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>投资页面</title>
+    <link rel="stylesheet" type="text/css" href="https://m.wukonglicai.com/css/global.css" />
+	<link rel="stylesheet" type="text/css" href="https://m.wukonglicai.com/css/set-account.css" />
+	<script type="text/javascript" src="https://m.wukonglicai.com/javascript/deposit/upgrade.js"></script>
+	<script type="text/javascript" src="https://m.wukonglicai.com/javascript/growingSDK.js"></script>
+	<script type="text/javascript" src="https://m.wukonglicai.com/javascript/rem.js"></script>
+	<script type="text/javascript" src="https://m.wukonglicai.com/javascript/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="https://m.wukonglicai.com/javascript/deposit/alertMessage.js"></script>
+	<script type="text/javascript" src="https://m.wukonglicai.com/javascript/deposit/layer/layer.js"></script>
+	<link rel="stylesheet" href="https://m.wukonglicai.com/css/zhezhao.css?20181013">
+	<link rel="stylesheet" href="https://m.wukonglicai.com/css/base.css" />
+
+
+
+  	<link rel="stylesheet" type="text/css" href="https://m.wukonglicai.com/extra/integral/css/nav.css?t=20181030" />
+
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="{% static '/css/swiper.min.css' %}">
+
+    <!-- Demo styles -->
+
+
+
+    <link rel="stylesheet" href="https://m.wukonglicai.com/css/home.css?20181018"/>
+
+<style>
+   
+    .swiper-container1 {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-wrapper1 {
+	    width: 94%;
+	    height: 100%;
+	    margin-left: 3%;
+	    margin-right: 3%;
+	    margin-bottom: 1rem;
+	    margin-top: 1rem;
+
+	}
+    .swiper-slide1 {
+        height: 5rem; 
+        margin-bottom: 0.3rem;
+        background: url(https://static.wukonglicai.com/bfe/wk-op/novice-five-gift/static/img/pic1.72656da.png);
+        background-size: 100% 100%;
+	}
+	.programshow{
+		width: 96%;margin-left: 2%;height: 65%
+	}
+	.programshow h3{
+		margin-left: 35%;
+		font-size: 0.5rem;
+	}
+	.programshow h4{
+		margin-left: 5%;
+		font-size: 1.2rem;
+	    color: #ff5c6c;
+	    font-weight: normal;
+	    margin: .02rem 0 .12rem;
+	}
+	.novice-gift-one-btn{
+		
+	    width: 4.8rem;
+	    height: 1.12rem;
+	    margin: 0 auto;
+	    margin-top: .3rem;
+}
+
+    </style>
+</head>
+<body>
+<!-- 
+novice-gift-one = swiper-slide1
+项目名称(name)---项目简介(programText)---最小买入值(minPay)---利率(payBack)---周期（天）(payDay)
+
+-->
+<div id="wrap">
+	<div class="swiper-container1">
+	        <div class="swiper-wrapper1">
+
+	        	{% for programinfo in program_infos %}
+
+	            <div class="swiper-slide1">
+
+	            <div style="width: 100%;height: 5%"></div>
+	            		<!-- -->
+				<div class="programshow">
+					<h3>{{ programinfo.name }}</h3>
+					<h4>{{ programinfo.payBack }}<!----><i >%</i></h4> 
+					<span>最低金额：{{ programinfo.minPay }}</span>
+					<div data-v-f4e2e65a=""></div> 
+					<span data-v-f4e2e65a="">封闭期{{ programinfo.payDay }}天 <br></span>
+					<p>{{ programinfo.programText }}</p>
+					</div>
+	            		
+					<a href="/programDetails/{{ programinfo.id }}">
+	            		<div class="novice-gift-one-btn">
+	            			<img  src="https://static.wukonglicai.com/bfe/wk-op/novice-five-gift/static/img/pic-btn.24e6510.png">
+	            		</div>
+	            		</a>
+	            </div>
+	            {% empty %}
+                  <div class="swiper-slide n-pro-list" class="no-post">暂时还没有发布的项目！</div>
+                {% endfor %}
+
+
+	            <!-- 
+				<div class="swiper-slide1">Slide 2</div>
+	            <div class="swiper-slide1">Slide 3</div>
+	            <div class="swiper-slide1">Slide 4</div>
+	            <div class="swiper-slide1">Slide 5</div>
+	            <div class="swiper-slide1">Slide 6</div>
+	            <div class="swiper-slide1">Slide 7</div>
+	            <div class="swiper-slide1">Slide 8</div>
+	            <div class="swiper-slide1">Slide 9</div>
+	            <div class="swiper-slide1">Slide 10</div>
+		
+	            -->
+	        </div>
+
+	    </div>
+
+	    <!-- Swiper JS -->
+
+
+
+
+
+
+
+
+<div style="" id="showLogin" class="fixed">
+    <a href="/" class="t-jTxt">
+        <dl>
+            <dt class="active-foot active-tj">
+            <img src="https://m.wukonglicai.com/images/s-yActive.png">
+            </dt>
+            <dd><p>首页 </p></dd>
+        </dl>
+    </a>
+    <a href="/maintz" class="l-cTxt">
+        <dl>
+            <dt class="xiabianlanlc">
+            <img src="https://m.wukonglicai.com/images/t-z.png">
+            </dt>
+            <dd><p>投资</p></dd>
+        </dl>
+    </a>
+    <a href="/elseinfo" class="t-qTxt">
+        <dl>
+            <dt class="xiabianlantq">
+            <img src="https://m.wukonglicai.com/images/k-f.png">
+            </dt>
+            <dd><p>客服</p></dd>
+        </dl>
+    </a>
+    <a href="/userCenter" class="myTxt">
+        <dl>
+            <dt class="xiabianlanwd">
+            <img src="https://m.wukonglicai.com/images/m-y.png">
+            </dt>
+            <dd><p>我的</p></dd>
+        </dl>
+    </a>
+</div>
+
+</div>
+
+</body>
+
+</html>

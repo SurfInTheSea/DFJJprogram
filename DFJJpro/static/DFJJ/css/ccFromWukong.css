@@ -1,0 +1,32 @@
+html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, button, input, textarea, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+    font-family: '微软雅黑';
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    color: -internal-root-color;
+}
+body {
+    font-size: 12px;
+    font-family: Verdana;
+}
+#wrap {
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 1rem;
+    position: relative;
+}
+#wrap {
+    max-width: 750px;
+    margin: 0 auto;
+}
+

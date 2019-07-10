@@ -1,0 +1,169 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大发基金</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <link href="{% static 'DFJJ/css/style.css' %}" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="{%static '/favicon.ico' %}" />
+</head>
+<body>
+
+ {% for info in productInfoVo %}
+   <a >
+        期望年化回报率:{{info.baseYields}}----封闭期{{info.timeLong}}天------最低{{info.minInvest}}元起-------------------；；；；；；
+  </a>
+ {% empty %}
+  <div class="no-post">暂时还没有发布的基金！</div>
+{% endfor %}
+
+    <section class="aui-flexView">
+        <header class="aui-navBar aui-navBar-fixed b-line">
+            <a href="javascript:;" class="aui-navBar-item">
+                <i class="icon icon-return"></i>
+            </a>
+            <div class="aui-center">
+                <span class="aui-center-title">大发基金——坚若磐石</span>
+            </div>
+            <a href="javascript:;" class="aui-navBar-item">
+                <i class="icon icon-news"></i>
+            </a>
+        </header>
+        <section class="aui-scrollView">
+            <div class="aui-conduct-color">
+                <div class="aui-conduct-head">
+                    <div class="aui-tag-img">
+                        <img src="{% static 'DFJJ/images/yag.png' %}" alt="">
+                    </div>
+                    <div class="aui-head-title">
+                        <h2>点滴之水,汇成海洋</h2>
+                        <p>理财,在于每一天的积累</p>
+                    </div>
+                </div>
+
+                <div class="aui-conduct-cell">
+                    <div class="aui-flex">
+                        <div class="aui-flex-box">
+                            <h1>现金管理工具</h1>
+                        </div>
+                    </div>
+                    <h2>余利宝 <em>周转资金.随存随取</em></h2>
+                    <div class="aui-conduct-list">
+                        <a href="javascript:;">
+                            <h4>8928.00</h4>
+                            <p>总金额</p>
+                        </a>
+                        <a href="javascript:;">
+                            <h4>暂无收益</h4>
+                            <p>昨日收益</p>
+                        </a>
+                        <a href="javascript:;">
+                            <button class="aui-page-btn">详  情</button>
+                        </a>
+                    </div>
+                    <div class="divHeight"></div>
+                </div>
+                <div class="aui-conduct-cell">
+                    <h2>余利宝 <em>周转资金.随存随取</em></h2>
+                    <div class="aui-conduct-list">
+                        <a href="javascript:;">
+                            <h4>8928.00</h4>
+                            <p>总金额</p>
+                        </a>
+                        <a href="javascript:;">
+                            <h4>暂无收益</h4>
+                            <p>昨日收益</p>
+                        </a>
+                        <a href="javascript:;">
+                            <button class="aui-page-btn">详  情</button>
+                        </a>
+                    </div>
+                    <div class="divHeight"></div>
+                </div>
+                <div class="aui-conduct-cell">
+                    <div class="aui-flex">
+                        <div class="aui-flex-box">
+                            <h1>银行存款</h1>
+                        </div>
+                    </div>
+                    <h2>定活宝 <em>灵活存取.随存随取</em></h2>
+                    <div class="aui-conduct-list">
+                        <a href="javascript:;">
+                            <h4>8928.00</h4>
+                            <p>总金额</p>
+                        </a>
+                        <a href="javascript:;">
+                            <h4>2.80%</h4>
+                            <p>今日支取利率</p>
+                        </a>
+                        <a href="javascript:;">
+                            <button class="aui-page-btn">详  情</button>
+                        </a>
+                    </div>
+                    <div class="divHeight"></div>
+                </div>
+                <div class="aui-conduct-cell">
+                    <h2>随意存 <em>灵活存取.随存随取</em></h2>
+                    <div class="aui-conduct-list">
+                        <a href="javascript:;">
+                            <h4>8928.00</h4>
+                            <p>总金额</p>
+                        </a>
+                        <a href="javascript:;">
+                            <h4>2.80%</h4>
+                            <p>今日支取利率</p>
+                        </a>
+                        <a href="javascript:;">
+                            <button class="aui-page-btn">详  情</button>
+                        </a>
+                    </div>
+                    <div class="divHeight"></div>
+                </div>
+                <div class="aui-conduct-cell">
+                    <div class="aui-flex">
+                        <div class="aui-flex-box">
+                            <h1>其它</h1>
+                        </div>
+                    </div>
+                    <h2 class="aui-after-right">余额宝  <i>银行提供基金销售服务</i></h2>
+
+                    <div class="divHeight"></div>
+                </div>
+            </div>
+
+
+            <div class="aui-footer-text">
+                <button>我的客服</button>
+                <p>理财金服主导成立的国内首批民营银行</p>
+            </div>
+        </section>
+        <footer class="aui-footer aui-footer-fixed">
+            <a href="javascript:;" class="aui-tabBar-item aui-tabBar-item-active">
+                <span class="aui-tabBar-item-icon">
+                    <i class="icon icon-loan"></i>
+                </span>
+                <span class="aui-tabBar-item-text">首页</span>
+            </a>
+            <a href="javascript:;" class="aui-tabBar-item ">
+                <span class="aui-tabBar-item-icon">
+                    <i class="icon icon-credit"></i>
+                </span>
+                <span class="aui-tabBar-item-text">资讯</span>
+            </a>
+            <a href="javascript:;" class="aui-tabBar-item ">
+                <span class="aui-tabBar-item-icon">
+                    <i class="icon icon-ions"></i>
+                </span>
+                <span class="aui-tabBar-item-text">我的</span>
+            </a>
+        </footer>
+    </section>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,401 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en" style="font-size: 50px;">
+<head>
+    <link rel="shortcut icon" href="{%static '/favicon.ico' %}" />
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>大发基金</title>
+    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/rem.js"></script>
+    <link rel="stylesheet" href="https://m.wukonglicai.com/css/global.css"/>
+    <link rel="stylesheet" href="https://m.wukonglicai.com/css/new_swiper.min.css"/>
+    <link rel="stylesheet" href="https://m.wukonglicai.com/css/home.css?20181018"/>
+    <link rel="stylesheet" href="https://m.wukonglicai.com/extra/getStarted/css/xstk.css"/>
+    <link rel="stylesheet" href="https://m.wukonglicai.com/css/deposit/withdrawals.css"/>
+    <link rel="stylesheet" href="https://m.wukonglicai.com/javascript/deposit/layer/need/layer.css"/>
+    <link rel="stylesheet" href="https://m.wukonglicai.com/css/zhezhao.css?20181013"/>
+    <link rel="stylesheet" href="https://m.wukonglicai.com/css/privacy-play-style.css">
+    <link rel="stylesheet" href="https://m.wukonglicai.com/css/reconmmend_home.css">
+    <script src="https://m.wukonglicai.com/javascript/jquery-1.7.2.min.js"></script>
+    <script src="https://m.wukonglicai.com/javascript/jquery.drag.js"></script>
+    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/swiper-3.3.1.jquery.min.js"></script>
+    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/jsrender.min.js"></script>
+    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/growingSDK.js"></script>
+    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/deposit/layer/layer.js"></script>
+    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/deposit/upgrade.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://m.wukonglicai.com/extra/integral/css/nav.css"/>
+    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/deposit/alertMessage.js"></script>
+    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/public.js"></script>
+    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/deposit/privacy.js"></script>
+
+<style type="text/css">
+        #icoInvFixe {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        .n-pro-main .n-main .n-qual span {
+            float: none;
+            width: 1.86rem;
+            -webkit-flex: 3;
+            line-height: .35rem;
+            flex: 3;
+        }
+
+        .n-pro-main .n-main .n-qual {
+            display: flex;
+            display: -webkit-flex;
+            -webkit-justify-content: space-around;
+            justify-content: space-around;
+            height: 0.24rem;
+            line-height: 0.2rem;
+        }
+
+        .n-pro-main .n-main .n-qual:after {
+            content: initial;
+        }
+
+
+        #bulletins {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            background: rgba(0, 0, 0, .3);
+            color: white;
+            z-index: 99;
+        }
+
+        #bulletins > div:first-child {
+            padding: 6px 10px;
+            box-sizing: border-box;
+            flex: 1;
+        }
+
+        .bulletin,
+        .bulletin .swiper-wrapper {
+            height: 40px !important;
+        }
+
+        .bulletin .swiper-slide {
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .bulletin .swiper-wrapper .swiper-slide span:first-child {
+            padding: 4px 8px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .bulletin .swiper-wrapper .swiper-slide span:last-child {
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            top: -7px;
+        }
+
+        #bulletins .more {
+            width: 60px;
+            height: 40px;
+            padding: 6px 0;
+            line-height: 28px;
+            box-sizing: border-box;
+            display: flex;
+        }
+
+        #bulletins .more .line {
+            display: inline-block;
+            width: 1px;
+            height: 100%;
+            background: #fff;
+        }
+
+        #bulletins .more a {
+            flex: 1;
+            color: white;
+            text-align: center;
+        }
+
+
+        /*---------------------------------
+ | 隐私弹框   start                 |
+  ---------------------------------*/
+    /*     .lay-privacy {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: 10001;
+            left: 0;
+            top: 0;
+        }
+        .lay-privacy .n-mask {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, .4);
+        }
+        .privacy-box {
+            position: absolute;
+            width: 6.5rem;
+            height: 7.48rem;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: .6rem .3rem;
+            box-sizing: border-box;
+            border-radius:.2rem;
+        }
+        .privacy-box-tit {
+            margin-bottom: .3rem;
+            font-size: .36rem;
+            text-align: center;
+            line-height: .5rem;
+            color: #333;
+        }
+        .privacy-box-content {
+            padding: 0 .15rem;
+            height: 4.5rem;
+            overflow-y: auto;
+        }
+        .privacy-box-content li {
+            margin-bottom: .3rem;
+            color: #888;
+            font-size: .26rem;
+            line-height: .4rem;
+        }
+        .privacy-box-btns {
+            display: flex;
+            justify-content: space-between;
+            margin-top: .1rem;
+        }
+        .privacy-box-btns .n-btn {
+            width: 2.8rem;
+            height: .88rem;
+            box-sizing: border-box;
+            font-size: .36rem;
+            -webkit-border-radius: .44rem;
+            -moz-border-radius: .44rem;
+            border-radius: .44rem;
+        }
+        .privacy-box-btns .n-btn1 {
+            border: #1CC7B9 solid 1px;
+            color: #1CC7B9;
+            background-color: transparent;
+        }
+        .privacy-box-btns .n-btn2 {
+            background: #1CC7B9;
+            color: #fff;
+        } */
+        /*---------------end----------------*/
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div class="swiper-container">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide"><a href=""><img src="https://static.9f.cn/isp/img/20190313144613.jpg" onerror="this.src='/img/banner/img-defcult.jpg'" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="https://m.wukonglicai.com/img/banner/loadAPP_banner.png" onerror="this.src='/img/banner/img-defcult.jpg'" alt=""></a>
+            </li>
+        </ul>
+        <div class="swiper-pagination n-prc-pag"></div>
+    </div>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            autoplay: 3000,
+            loop: true
+        });
+    </script>
+    <div id="container">
+        <ul class="m-nav">
+            <li onclick="jumpTo('/newguide')"><em><img src="https://m.wukonglicai.com/img/ico_nav1.png" alt=""></em><span>新手专区</span>
+            </li>
+            <li onclick="jumpTo('/trust')"><em><img src="https://m.wukonglicai.com/img/aqbz.png" alt=""></em><span>安全保障</span>
+            </li>
+            <a style="display: inline-block;-webkit-flex: 3 0 33.33333%;text-align: center;color: #666;position: relative;" href="/infomation"><em style="display: inline-block;vertical-align: middle;width: 0.64rem;height: 0.64rem; margin-top: 0.02rem;">
+            <img src="https://m.wukonglicai.com/img/informationDdisclosure.png" alt=""></em><span style="display: inline-block;width: 100%;margin-top: 0.06rem;font-size: 0.23rem;">充值渠道</span></a>
+        </ul>
+          <!-- Swiper -->
+  <div class="swiper-container m-pro swiper-container-horizontal">
+    <div class="swiper-wrapper swiper-wrapper">
+      {% for programInfo in programInfos %}
+        <div class="swiper-slide n-pro-list ">
+            <div class="n-pro-main">
+                            <div class="n-top">
+                                <span>{{ programInfo.name }}</span>
+                                <a href="/programDetails/{{ programInfo.id }}">详情<em><img src="https://m.wukonglicai.com/img/ico-right-sj.svg" alt=""></em></a>
+                            </div>
+                            <div class="n-main">
+                                <div class="n-box">
+                                    <p class="n-mag">期望年化回报率<img name="showExplainImg" onclick="showExplain(1)" style="width: 0.3rem; margin-left: 0.1rem;" src="https://m.wukonglicai.com/images/exclamation_mark2.png"></p>
+                                        
+                                            
+                                                <h2 class="n-int-rate">{{ programInfo.payBack }}<em>%</em></h2>
+                                            
+                                            <p class="n-magb"></p>
+                                        
+                                    
+
+                                            <div class="n-qual">
+                                                <span>封闭期{{ programInfo.payDay }}天<p style="display: inline-block;"><img name="showExplainImg" onclick="showExplain(2)" style="width: 0.3rem; margin-left: 0.1rem;" src="https://m.wukonglicai.com/images/exclamation_mark2.png"></p></span>
+                                                <span>最低{{ programInfo.minPay }}元起</span>
+                                                
+                                                    <span>出借无上限</span>
+                                                
+                                            </div>
+                                        
+                                    
+                                </div>
+                                <div class="n-btn">
+                                    <a href="/programDetails/{{ programInfo.id }}">
+                                        <big>马上加入</big>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+      </div>
+
+      {% empty %}
+       <div class="swiper-slide n-pro-list ">暂时还没有项目发布哦</div>
+      {% endfor %}
+
+
+
+<!-- 
+    
+    
+
+
+
+
+      <div class="swiper-slide n-pro-list ">Slide 2</div>
+      <div class="swiper-slide n-pro-list">Slide 3</div>
+      <div class="swiper-slide n-pro-list">Slide 4</div>
+      <div class="swiper-slide n-pro-list">Slide 5</div>
+      <div class="swiper-slide n-pro-list">Slide 6</div>
+      <div class="swiper-slide n-pro-list">Slide 7</div>
+      <div class="swiper-slide n-pro-list">Slide 8</div>
+      <div class="swiper-slide n-pro-list">Slide 9</div>
+      <div class="swiper-slide n-pro-list">Slide 10</div>
+-->
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    
+  </div>
+
+  <!-- Swiper JS -->
+ 
+
+        <script type="text/javascript">
+            var mySwiper1 = new Swiper ('.swiper-container', {
+                autoplay: 2800,
+                loop: true
+              });
+
+        </script>
+        
+        <div class="m-ad-box">
+        </div>
+    </div>
+    <footer class="foot-cyp">
+        <div style="padding:0 .6rem"><img src="https://m.wukonglicai.com/images/head-tips.png" alt=""></div>
+    </footer>
+</div>
+
+
+
+
+
+
+<div style="" id="show" class="fixed">
+    <a href="/" class="t-jTxt">
+        <dl>
+            <dt class="active-foot active-tj">
+            <img src="https://m.wukonglicai.com/images/s-yActive.png">
+            </dt>
+            <dd><p>首页 </p></dd>
+        </dl>
+    </a>
+    <a href="/maintz" class="l-cTxt">
+        <dl>
+            <dt class="xiabianlanlc">
+            <img src="https://m.wukonglicai.com/images/t-z.png">
+            </dt>
+            <dd><p>投资</p></dd>
+        </dl>
+    </a>
+    <a href="/logout" class="t-qTxt">
+        <dl>
+            <dt class="xiabianlantq">
+            <img src="https://m.wukonglicai.com/images/k-f.png">
+            </dt>
+            <dd><p>退出</p></dd>
+        </dl>
+    </a>
+    <a href="/userCenter" class="myTxt">
+        <dl>
+            <dt class="xiabianlanwd">
+            <img src="https://m.wukonglicai.com/images/m-y.png">
+            </dt>
+            <dd><p>我的</p></dd>
+        </dl>
+    </a>
+</div>
+
+
+
+<script type="text/javascript" src="https://m.wukonglicai.com/javascript/public.js"></script>
+
+
+ {% if messages %}
+            <script>
+                {% for msg in messages %}
+                    alert('{{ msg.message }}');
+                {% endfor %}
+            </script>
+        {% endif %}
+
+
+
+</body>
+<style>
+    .icon-wd {
+        -moz-border-radius: 0.06rem;
+        -webkit-border-radius: 0.06rem;
+        border-radius: 0.06rem;
+        align-self: flex-end;
+        -webkit-align-self: flex-end;
+        margin-left: 0.1rem;
+        height: 0.34rem;
+        line-height: 0.34rem;
+        padding: 0 0.08rem;
+        background: #ff5c6c;
+        color: #fff;
+        font-size: 0.22rem;
+        vertical-align: middle;
+        display: inline-block;
+        position: relative;
+        top: 0.08rem;
+    }
+</style>
+
+<script type="text/javascript">
+    function jumpTo(url) {
+        if (url != null && url != "") {
+            window.location.href = url;
+        }
+    }
+
+
+</script>
+</html>
