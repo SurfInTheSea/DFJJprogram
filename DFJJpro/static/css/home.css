@@ -1,0 +1,471 @@
+.clear:after, .m-nav:after, .n-pro-main .n-main .n-qual:after, .n-pro-main .n-main .n-cpy em:after, .m-ad-box:after {
+  width: 100%;
+  height: 0;
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+html, body {
+  width: 100%;
+  max-width: 750px;
+  background-color: #f0f3f5;
+  position: relative;
+}
+
+#wrap {
+  width: 100%;
+  min-height: 100%;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.banner-box li {
+  background: url(../img/banner/img-defcult.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.m-news {
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 0.26rem;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: #fff;
+  z-index: 2;
+  padding: .2rem .3rem;
+  line-height: 0.27rem;
+}
+
+.m-news em {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.3rem;
+  height: 0.27rem;
+  position: relative;
+}
+
+.btn-close {
+  float: right;
+  width: 0.27rem;
+  height: 0.27rem;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  right: 0.3rem;
+  top: 0.2rem;
+}
+
+.clear:after, .m-nav:after, .n-pro-main .n-main .n-qual:after, .n-pro-main .n-main .n-cpy em:after, .m-ad-box:after {
+  height: 0;
+  width: 100%;
+  display: block;
+  content: '';
+  visibility: hidden;
+  clear: both;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 2.5rem;
+}
+
+.m-nav {
+  background: #fff;
+  height: 1.32rem;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  border-bottom: #eee solid 1px;
+}
+
+.m-nav li {
+  flex: 3 0 33.33333%;
+  -webkit-flex: 3 0 33.33333%;
+  text-align: center;
+  color: #666;
+  position: relative;
+}
+
+.m-nav li em {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.64rem;
+  height: 0.64rem;
+  margin-top: 0.02rem;
+}
+
+.m-nav li span {
+  display: inline-block;
+  width: 100%;
+  margin-top: 0.06rem;
+  font-size: 0.23rem;
+}
+
+.m-nav li:before {
+  position: absolute;
+  content: "";
+  border-left: #f2f2f2 solid 1px;
+  height: 0.7rem;
+  width: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.m-nav li:first-child:before {
+  border-left: 0;
+}
+
+.m-nav li:nth-child(2):after {
+  position: absolute;
+  content: "";
+  border-left: #f2f2f2 solid 1px;
+  height: 0.7rem;
+  width: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.n-prc-pag span {
+  width: 0.14rem;
+  height: 0.14rem;
+  -moz-border-radius: 0.07rem;
+  -webkit-border-radius: 0.07rem;
+  border-radius: 0.07rem;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+.n-prc-pag span.swiper-pagination-bullet-active {
+  background: white;
+}
+
+.m-pro {
+  margin-top: .23rem;
+  height: 7.03rem;
+}
+
+.m-pro .n-pro-list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 84.2%;
+}
+
+.m-pro .n-prev, .m-pro .n-next {
+  background: url(../img/btn-prenex.png) no-repeat 0 0;
+  position: absolute;
+  width: 0.4rem;
+  height: 0.4rem;
+  top: 50%;
+  margin-top: -0.2rem;
+  background-size: cover;
+  z-index: 2;
+}
+
+.m-pro .n-prev {
+  left: .11rem;
+}
+
+.m-pro .n-next {
+  right: .11rem;
+  background-position: 0 -.4rem;
+}
+
+.m-pro .n-page {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0.04rem;
+}
+
+.m-pro .n-page span {
+  display: inline-block;
+  width: 0.14rem;
+  height: 0.14rem;
+  background: #ccc;
+  -moz-border-radius: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  border-radius: 0.7rem;
+  opacity: 1;
+}
+
+.m-pro .n-page span.swiper-pagination-bullet-active {
+  background: #1cc7b9;
+  width: .22rem;
+  height: .22rem;
+  -moz-border-radius: 0.11rem;
+  -webkit-border-radius: 0.11rem;
+  border-radius: 0.11rem;
+  margin-bottom: -.04rem;
+}
+
+.n-pro-main {
+  width: 6.28rem;
+  height: 6.5rem;
+  background: #fff;
+  -webkit-box-shadow: 0 0 0.15rem rgba(50, 61, 68, 0.1);
+  box-shadow: 0 0 0.15rem rgba(50, 61, 68, 0.1);
+  -moz-border-radius: 0.06rem;
+  -webkit-border-radius: 0.06rem;
+  border-radius: 0.06rem;
+}
+
+.n-pro-main em {
+  font-style: normal;
+}
+
+.n-pro-main .n-top {
+  height: 0.99rem;
+  border-bottom: #eee solid 1px;
+  padding: 0.29rem 0.44rem;
+}
+
+.n-pro-main .n-top span {
+  float: left;
+  font-size: 0.32rem;
+  color: #333;
+}
+
+.n-pro-main .n-top span em {
+  display: inline-block;
+  height: 0.40rem;
+  line-height: 0.40rem;
+  padding: 0 0.13rem;
+  background: #ff5c6c;
+  font-size: 0.24rem;
+  color: #fff;
+  -moz-border-radius: 0.04rem;
+  -webkit-border-radius: 0.04rem;
+  border-radius: 0.04rem;
+  margin-right: 0.1rem;
+  position: relative;
+  top: -0.02rem;
+}
+
+.n-pro-main .n-top a {
+  float: right;
+  font-size: 0.28rem;
+  line-height: 0.44rem;
+  color: #a5a5a5;
+}
+
+.n-pro-main .n-top a em {
+  display: inline-block;
+  width: 0.1rem;
+  margin-left: 0.1rem;
+}
+
+.n-pro-main .n-main {
+  text-align: center;
+  padding: 0  0.35rem 0;
+}
+
+.n-pro-main .n-main .n-box {
+  height: 3.96rem;
+  padding: 0.5rem 0 0;
+}
+
+.n-pro-main .n-main .n-moth {
+  margin-top: 0.3rem;
+  font-size: 0.26rem;
+  color: #666;
+}
+
+.n-pro-main .n-main .n-moth em {
+  color: #ff5c6c;
+  font-size: .26rem;
+}
+
+.n-pro-main .n-main .n-mag {
+  font-size: 0.24rem;
+  color: #a5a5a5;
+}
+
+.n-pro-main .n-main .n-int-rate {
+  font-size: 1.2rem;
+  color: #ff5c6c;
+  font-weight: normal;
+  margin: .02rem 0 .12rem;
+}
+
+.n-pro-main .n-main .n-int-rate span {
+  font-size: .8rem;
+  color: #ff5c6c;
+}
+
+.n-pro-main .n-main .n-int-rate em {
+  font-size: 0.24rem;
+}
+
+.n-pro-main .n-main .n-magb span {
+  margin: 0 0.07rem;
+  background: rgba(28, 199, 185, 0.06);
+  border: #44cec2 solid 1px;
+  height: 0.34rem;
+  display: inline-block;
+  line-height: 0.32rem;
+  -moz-border-radius: 0.17rem;
+  -webkit-border-radius: 0.17rem;
+  border-radius: 0.17rem;
+  padding: 0 0.14rem;
+  color: #44cec2;
+  font-size: 0.2rem;
+}
+
+.n-pro-main .n-main .n-qual {
+  width: 100%;
+  margin: .3rem 0 .2rem;
+}
+
+.n-pro-main .n-main .n-qual span {
+  float: left;
+  position: relative;
+  width: 33.3333%;
+  vertical-align: middle;
+  color: #666;
+  font-size: 0.24rem;
+}
+
+.n-pro-main .n-main .n-qual span:before {
+  position: absolute;
+  content: "";
+  border-left: #eee solid 1px;
+  height: 0.2rem;
+  width: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.n-pro-main .n-main .n-qual span:first-child:before {
+  border: none;
+}
+
+.n-pro-main .n-main .n-btn {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 0.86rem;
+  background: #44cec2;
+  -moz-border-radius: 0.06rem;
+  -webkit-border-radius: 0.06rem;
+  border-radius: 0.06rem;
+}
+
+.n-pro-main .n-main .n-btn.n-btn-none {
+  background: #ddd;
+}
+
+.n-pro-main .n-main .n-btn.n-btn-none a big, .n-pro-main .n-main .n-btn.n-btn-none a small {
+  color: #A5A5A5;
+}
+
+.n-pro-main .n-main .n-btn a {
+  width: 100%;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.n-pro-main .n-main .n-btn a big {
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  font-size: .3rem;
+  height: 0.35rem;
+}
+
+.n-pro-main .n-main .n-btn a small {
+  display: inline-block;
+  color: #fff;
+  height: 0.18rem;
+  font-size: .18rem;
+  width: 100%;
+}
+
+.n-pro-main .n-main .n-cpy {
+  height: 0.71rem;
+  line-height: .71rem;
+}
+
+.n-pro-main .n-main .n-cpy em {
+  width: .2rem;
+  height: .24rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.1rem;
+}
+
+.n-pro-main .n-main .n-cpy em img {
+  float: left;
+}
+
+.n-pro-main .n-main .n-cpy span {
+  display: inline-block;
+  color: #a5a5a5;
+  font-size: .22rem;
+  vertical-align: middle;
+}
+
+.m-ad-box {
+  margin-top: .15rem;
+}
+
+.m-ad-box a {
+  float: left;
+  width: 100%;
+  margin-bottom: .2rem;
+}
+
+.m-ad-box a img {
+  float: left;
+}
+
+.foot-cyp {
+  text-align: center;
+  line-height: .36rem;
+  padding: .1rem 0 .2rem;
+}
+
+.foot-cyp p {
+  color: #a5a5a5;
+  font-size: .22rem;
+}
+
+#icoInvFixe {
+  width: 1.6rem;
+  height: 0.9rem;
+  position: absolute;
+  right: 0;
+  top: 30%;
+  z-index: 10;
+  background-size: cover;
+  pointer-events: auto;
+}
+
+.fixe-mark {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: none;
+  z-index: 9;
+}

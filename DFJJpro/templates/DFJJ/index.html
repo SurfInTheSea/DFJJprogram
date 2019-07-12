@@ -10,7 +10,7 @@
     <script type="text/javascript" src="https://m.wukonglicai.com/javascript/rem.js"></script>
     <link rel="stylesheet" href="https://m.wukonglicai.com/css/global.css"/>
     <link rel="stylesheet" href="https://m.wukonglicai.com/css/new_swiper.min.css"/>
-    <link rel="stylesheet" href="https://m.wukonglicai.com/css/home.css?20181018"/>
+    <link rel="stylesheet" href="{% static '/css/home.css' %}"/>
     <link rel="stylesheet" href="https://m.wukonglicai.com/extra/getStarted/css/xstk.css"/>
     <link rel="stylesheet" href="https://m.wukonglicai.com/css/deposit/withdrawals.css"/>
     <link rel="stylesheet" href="https://m.wukonglicai.com/javascript/deposit/layer/need/layer.css"/>
@@ -220,8 +220,18 @@
             </li>
             <li onclick="jumpTo('/trust')"><em><img src="https://m.wukonglicai.com/img/aqbz.png" alt=""></em><span>安全保障</span>
             </li>
-            <a style="display: inline-block;-webkit-flex: 3 0 33.33333%;text-align: center;color: #666;position: relative;" href="/infomation"><em style="display: inline-block;vertical-align: middle;width: 0.64rem;height: 0.64rem; margin-top: 0.02rem;">
-            <img src="https://m.wukonglicai.com/img/informationDdisclosure.png" alt=""></em><span style="display: inline-block;width: 100%;margin-top: 0.06rem;font-size: 0.23rem;">充值渠道</span></a>
+            <li onclick="jumpTo('/newguide')"><em><img src="https://m.wukonglicai.com/img/ico_nav1.png" alt=""></em><span>提取现金</span>
+            </li>
+
+        </ul>
+        <ul class="m-nav">
+
+            <li onclick="jumpTo('/newguide')"><em><img src="https://m.wukonglicai.com/img/ico_nav1.png" alt=""></em><span>大发官网</span>
+            </li>
+            <li onclick="jumpTo('/newguide')"><em><img src="https://m.wukonglicai.com/img/ico_nav1.png" alt=""></em><span>当日收益</span>
+            </li>
+             <li onclick="jumpTo('/infomation')"><em><img src="https://m.wukonglicai.com/img/informationDdisclosure.png" alt=""></em><span>充值渠道</span>
+            </li>
         </ul>
           <!-- Swiper -->
   <div class="swiper-container m-pro swiper-container-horizontal">
@@ -231,14 +241,8 @@
             <div class="n-pro-main">
                             <div class="n-top">
                                 <span>{{ programInfo.name }}</span>
-                                <span> </span>
-                                <span><a href="http://dfpt.com/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大发官网</a></span>
-                                <span><a href="http://dfpt.com/">&nbsp;&nbsp;&nbsp;提现</a></span>
-
-                                <a href="/userCenter">今日收益<em>
-                                    <!--
-                                     <img src="https://m.wukonglicai.com/img/ico-right-sj.svg" alt="">
-                                     -->
+                                <a href="/programDetails/{{ programInfo.id }}">详情<em>
+                                    <img src="https://m.wukonglicai.com/img/ico-right-sj.svg" alt="">
                                 </em>
                                 </a>
                             </div>
@@ -265,7 +269,7 @@
                                 </div>
                                 <div class="n-btn">
                                     <a href="/programDetails/{{ programInfo.id }}">
-                                        <big>马上购入</big>
+                                        <big>马上加入</big>
                                     </a>
                                 </div>
                             </div>
