@@ -200,7 +200,7 @@ def buyProgramDetails(request, pk):
         print('账户余额：', OperatingOne.mone_done)
         print('购买产品成功！')
         #*"+ OperatingOne.program_count +"="+ OperatingOne.program_minPay * OperatingOne.program_minPay +"
-        messages.success(request,"恭喜您，成功购入"+ OperatingOne.program_name +"，总计:"+ str(OperatingOne.program_minPay) +"*"+ str(OperatingOne.program_count) +"="+ str(OperatingOne.program_minPay * OperatingOne.program_minPay) +"元")
+        messages.success(request,"恭喜您，成功购入"+ OperatingOne.program_name +"，总计:"+ str(OperatingOne.program_minPay) +"*"+ str(OperatingOne.program_count) +"="+ str(OperatingOne.program_minPay * OperatingOne.program_count) +"元")
         return  redirect("/index/")
 
     programDetail = models.ProgramInfo.objects.get(id=pk)
