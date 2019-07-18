@@ -2,13 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42b6f691-98a8-48fc-b019-577b60f1a08d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/css/deposit/withdrawals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/css/new_swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/css/privacy-play-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/css/reconmmend_home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/css/zhezhao.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/extra/getStarted/css/xstk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/extra/integral/css/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/extra/userRedAccount/img/icon-more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/extra/userRedAccount/img/icon-msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/extra/userRedAccount/img/mact-yc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/extra/userRedAccount/img/user-tx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/images/exclamation_mark2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/images/foot-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/images/head-tips.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/images/k-f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/images/m-y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/images/recommend_red.b3b084cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/images/s-yActive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/images/t-z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/img/aqbz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/img/banner/20190313144613.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/img/banner/loadAPP_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/img/ico_nav1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/img/icon-more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/img/icon-msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/img/informationDdisclosure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/img/k-f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/img/m-y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/img/mact-yc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/img/s-yActive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/img/t-z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/img/user-tx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/javascript/deposit/alertMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/javascript/deposit/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/javascript/deposit/layer/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/javascript/deposit/layer/need/layer20.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/javascript/deposit/privacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/javascript/deposit/upgrade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/javascript/gio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/javascript/jquery.drag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/javascript/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/javascript/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/javascript/rem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/javascript/swiper-3.3.1.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/newguideImages/header-banner.5ac0508.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/newguideImages/pic-btn.24e6510.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/newguideImages/pic1.72656da.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/newguideImages/pic2.0b8eb4a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/newguideImages/pic3.ccb73d9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/newguideImages/pic4-btn.8feac08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/newguideImages/pic4.d645e9c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFJJpro/static/newguideImages/pic5-btn.6f0f6ea.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFJJpro/DFJJ/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFJJpro/DFJJ/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DFJJpro/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DFJJpro/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFJJpro/static/login/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFJJpro/static/login/loginbackground.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DFJJpro/templates/DFJJ/elseinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DFJJpro/templates/DFJJ/elseinfo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DFJJpro/templates/DFJJ/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DFJJpro/templates/DFJJ/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFJJpro/templates/DFJJ/newguide.html" beforeDir="false" afterPath="$PROJECT_DIR$/DFJJpro/templates/DFJJ/newguide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFJJpro/templates/DFJJ/trust.html" beforeDir="false" afterPath="$PROJECT_DIR$/DFJJpro/templates/DFJJ/trust.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFJJpro/templates/DFJJ/userCenter.html" beforeDir="false" afterPath="$PROJECT_DIR$/DFJJpro/templates/DFJJ/userCenter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DFJJpro/templates/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/DFJJpro/templates/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFJJpro/templates/login/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/DFJJpro/templates/login/register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,16 +76,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DFJJpro/templates/login/register.html">
+        <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/userCenter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+            <state relative-caret-position="233">
+              <caret line="218" column="47" selection-start-line="218" selection-start-column="47" selection-end-line="218" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/newguide.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1927">
+              <caret line="180" column="37" selection-start-line="180" selection-start-column="37" selection-end-line="180" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/trust.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/elseinfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="593" column="66" selection-start-line="593" selection-start-column="66" selection-end-line="593" selection-end-column="66" />
+              <folding>
+                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#2;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DFJJpro/templates/login/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#2;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,85 +181,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="26" column="104" selection-start-line="26" selection-start-column="104" selection-end-line="26" selection-end-column="104" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/infomation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/maintz.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/newguide.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/programDetails.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="302" column="19" lean-forward="true" selection-start-line="302" selection-start-column="19" selection-end-line="302" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DFJJpro/DFJJ/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="207" column="60" lean-forward="true" selection-start-line="207" selection-start-column="60" selection-end-line="207" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/elseinfo.html">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/trust.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="52" column="1" selection-start-line="51" selection-end-line="52" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DFJJpro/templates/login/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -126,6 +193,8 @@
     <findStrings>
       <find>reg</find>
       <find>成</find>
+      <find>wukonglicai</find>
+      <find>extra/safety/images/cg.png</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,11 +213,13 @@
         <option value="$PROJECT_DIR$/DFJJpro/static/css/home.css" />
         <option value="$PROJECT_DIR$/DFJJpro/templates/DFJJ/infomation.html" />
         <option value="$PROJECT_DIR$/DFJJpro/templates/login/register.html" />
-        <option value="$PROJECT_DIR$/DFJJpro/templates/DFJJ/index.html" />
-        <option value="$PROJECT_DIR$/DFJJpro/templates/DFJJ/elseinfo.html" />
-        <option value="$PROJECT_DIR$/DFJJpro/templates/DFJJ/trust.html" />
         <option value="$PROJECT_DIR$/DFJJpro/DFJJ/views.py" />
         <option value="$PROJECT_DIR$/DFJJpro/templates/login/login.html" />
+        <option value="$PROJECT_DIR$/DFJJpro/templates/DFJJ/index.html" />
+        <option value="$PROJECT_DIR$/DFJJpro/templates/DFJJ/userCenter.html" />
+        <option value="$PROJECT_DIR$/DFJJpro/templates/DFJJ/newguide.html" />
+        <option value="$PROJECT_DIR$/DFJJpro/templates/DFJJ/trust.html" />
+        <option value="$PROJECT_DIR$/DFJJpro/templates/DFJJ/elseinfo.html" />
       </list>
     </option>
   </component>
@@ -164,8 +235,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="329" />
-    <option name="y" value="14" />
+    <option name="x" value="283" />
+    <option name="y" value="76" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -185,32 +256,6 @@
               <item name="DFJJprogram" type="b2602c69:ProjectViewProjectNode" />
               <item name="DFJJprogram" type="462c0819:PsiDirectoryNode" />
               <item name="DFJJpro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DFJJprogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DFJJprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="DFJJpro" type="462c0819:PsiDirectoryNode" />
-              <item name="DFJJ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DFJJprogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DFJJprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="DFJJpro" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DFJJprogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DFJJprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="DFJJpro" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="DFJJ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DFJJprogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DFJJprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="DFJJpro" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,14 +334,20 @@
       <option name="project" value="LOCAL" />
       <updated>1562957059832</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="登录页面和两个小问题">
+      <created>1563255945809</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563255945809</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17941953" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09815303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -322,7 +373,8 @@
     <MESSAGE value="1、安全保障页面底部加了一个banner&#10;2、首页轮播图添加了dfpt.com的链接&#10;3、首页项目轮播图添加了提取现金、大发官网、今日盈利" />
     <MESSAGE value="修改首页" />
     <MESSAGE value="修改了注册页面和登录页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了注册页面和登录页面" />
+    <MESSAGE value="登录页面和两个小问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录页面和两个小问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/userCenter/banckAndaccount.html">
@@ -332,13 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -356,41 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/login/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/elseinfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/trust.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="52" column="1" selection-start-line="51" selection-end-line="52" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="26" column="104" selection-start-line="26" selection-start-column="104" selection-end-line="26" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/infomation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -401,39 +411,139 @@
     <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/maintz.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/newguide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/programDetails.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
-          <caret line="302" column="19" lean-forward="true" selection-start-line="302" selection-start-column="19" selection-end-line="302" selection-end-column="19" />
+          <caret line="302" column="19" selection-start-line="302" selection-start-column="19" selection-end-line="302" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DFJJpro/DFJJ/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
-          <caret line="207" column="60" lean-forward="true" selection-start-line="207" selection-start-column="60" selection-end-line="207" selection-end-column="60" />
+          <caret line="207" column="60" selection-start-line="207" selection-start-column="60" selection-end-line="207" selection-end-column="60" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/login/login.html">
+    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+        <state relative-caret-position="-5527">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/login/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/userCenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="218" column="47" selection-start-line="218" selection-start-column="47" selection-end-line="218" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/newguide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1927">
+          <caret line="180" column="37" selection-start-line="180" selection-start-column="37" selection-end-line="180" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/trust.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFJJpro/templates/DFJJ/elseinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="593" column="66" selection-start-line="593" selection-start-column="66" selection-end-line="593" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#2;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

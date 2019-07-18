@@ -1,0 +1,137 @@
+.bankDepository {
+    position: fixed;
+    left: .5rem;
+    right: .5rem;
+    top: 2.6rem;
+    background: #ffffff;
+    z-index: 10;
+    border-radius: .07rem;
+    display: none;
+  }
+  .bankDepositoryMack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -1.3rem;
+    background: #000;
+    opacity: .3;
+    z-index: 9;
+    display: none;
+  }
+  .bankDepository .backContent {
+    background-image: url("../img/homeBitmap.png");
+    background-repeat: no-repeat;
+    background-position: 0 3.23rem;
+    -webkit-background-size: .78rem 1.89rem;
+            background-size: .78rem 1.89rem;
+    padding-bottom: .3rem;
+  }
+  
+  .backContentP {
+    font-size: .28rem;
+    color: #666666;
+    margin: .26rem .4rem 0 .4rem;
+  }
+  
+  .backContentP span {
+    color: #ec6c70;
+  }
+  
+  .backContentImg {
+    height: 3.36rem;
+    background-image: url("../img/homeImg.png");
+    -webkit-background-size: 100% 100%;
+            background-size: 100% 100%;
+  }
+
+  footer {
+    margin: .49rem .84rem 0 .84rem;
+  }
+  #bankDepositoryFooter{
+    display: flex;
+  }
+  
+  footer div {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+       -moz-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  
+  footer div:nth-child(1) button {
+    background: #EFEFEF;
+    color: #999999;
+  }
+  
+  footer div:nth-child(1) span {
+    background: #D9D9D9;
+  }
+  
+  footer div:nth-child(2) {
+    margin-left: .3rem;
+  }
+  
+  footer div:nth-child(2) button {
+    background: #1ACBBB;
+    color: #ffffff;
+  }
+  
+  footer div:nth-child(2) span {
+    background: #10B8A9;
+  }
+  
+  footer span {
+    height: .2rem;
+    display: block;
+    margin-top: -.1rem;
+    -webkit-border-radius: .08rem;
+            border-radius: .08rem;
+  }
+  
+  footer button {
+    width: 100%;
+    height: .8rem;
+    -webkit-border-radius: .08rem;
+            border-radius: .08rem;
+    font-size: .32rem;
+  }
+  
+  .footerP {
+    color: #888888;
+    text-align: center;
+    margin-top: .3rem;
+    font-size: .24rem;
+    border-radius: .07rem;
+  }
+  
+  .footerP span {
+    color: #1ACBBB;
+  }
+  
+  .footers {
+    width: 85%;
+    margin: .49rem 7.5% 0 7.5%;
+    display: none;
+  }
+  
+  .footers button {
+    width: 100%;
+    height: .88rem;
+    background: #1CC7B9;
+    font-size: .36rem;
+    color: #fff;
+    -webkit-border-radius: .08rem;
+            border-radius: .08rem;
+  }
+  
+  .footers span {
+    display: block;
+    height: .2rem;
+    background: #10B8A9;
+    -webkit-border-radius: .08rem;
+            border-radius: .08rem;
+    margin-top: -.1rem;
+  }
+  

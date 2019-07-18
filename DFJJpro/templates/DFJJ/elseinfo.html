@@ -1,13 +1,15 @@
 {% load staticfiles %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="font-size: 50px;">
 <head>
     <link rel="shortcut icon" href="{%static '/favicon.ico' %}" />
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>预留页面</title>
-
+    <link rel="stylesheet" href="{% static '/css/swiper.min.css' %}">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<!--
     <script>
         var _hmt = _hmt || [];
         (function() {
@@ -17,11 +19,760 @@
           s.parentNode.insertBefore(hm, s);
         })();
     </script>
+-->
+    <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #000;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide {
+      background-size: cover;
+      background-position: center;
+    }
+    .gallery-top {
+      height: 90%;
+      width: 100%;
+    }
+    .gallery-thumbs {
+      height: 10%;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+    .gallery-thumbs .swiper-slide {
+      width: 25%;
+      height: 100%;
+      opacity: 0.4;
+    }
+    .gallery-thumbs .swiper-slide-thumb-active {
+      opacity: 1;
+    }
 
+  </style>
+<style type="text/css">
+        html, body {
+            width: 100%;
+            height:100%;
+            max-width: 750px;
+            background-color: #f0f3f5;
+            position: relative;
+
+        }
+        .navbar1{
+            width:100%;
+            height:10%;
+            background: #d22018;
+            //position: fixed;
+            //z-index: 1;
+            //width: 100%;
+            //height: 1rem;
+            left: 0;
+            top: 0;
+            right: 0;
+            text-align: center;
+        }
+        .pay{
+            width:100%;
+            height:90%;
+            //margin-top:10%;
+            background-color: black;
+            //ni border-top: 1rem solid transparent;
+
+            //position: fixed;
+            //width: 10rem;
+            //top: 0;
+            //bottom: 0;
+            //overflow: hidden;
+            //color: #303030;
+        }
+
+        .title {
+            line-height: 100%;
+            font-size: 32px;
+            color: #fff;
+            font-weight: 100%;
+            margin-top:20%;
+        }
+        .am-tabs-default-bar-underline {
+            border: 1px solid #fff;
+        }
+
+
+
+        .form-item {
+            //padding: 0 .625rem;
+            overflow: hidden;
+            border-bottom: 1px solid #ddd;
+            background: #fff;
+            position: relative;
+            width:100%;
+            height:10%;
+            position: relative;
+        }
+        .form-item label {
+            float: left;
+            font-size: 9px;
+            color: #303030;
+            line-height: 100%;
+            width: 20%;
+            text-align: right;
+        }
+
+        .select-money-wrap {
+            background: #fff;
+            width:100%;
+            height:10%;
+
+        }
+        .tongdao ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 0;
+            width:100%;
+            height:30%;
+        }
+        .tongdao ul li:first-child:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10%;
+            height: 100%;
+            background: url(https://static-m.09ji.com/m/static/media/recommend_red.b3b084cd.png) no-repeat;
+            background-size: 100%;
+        }
+        .tongdao ul li{
+            list-style-type:none;
+            height:100%;
+            font-size:12px;
+            width:100%;
+            line-height: 100%;
+            //border-top: 0;
+
+
+            position: relative;
+
+            border-style: ridge;
+
+
+        }
+
+        .select-money-wrap ul {
+            //display: flex;
+            //flex-wrap: wrap;
+            //text-align:center;
+            position: relative;
+            width:100%;
+            height:100%;
+            //margin-left:0;
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 0;
+        }
+        .select-money-wrap ul li {
+            //margin: .3125rem;
+            width: 20%;
+            height: 40%;
+            border: 1px solid #c9c9c9;
+            font-size: 18px;
+            text-align: center;
+            line-height: 100%;
+            position: relative;
+            overflow: hidden;
+            top: 50%;
+            transform: translate(0, -50%);
+            float:left;
+            padding-left:0;
+            margin-left:4%
+        }
+        .select-money-wrap ul li.money-select {
+            background: #d22018;
+            color: #fff;
+        }
+        .submit-wrap{
+            width:100%;
+            height:10%;
+        }
+        .submit-btn {
+            display: block;
+            width: 80%;
+            height: 80%;
+            margin-left:10%;
+            line-height: .875rem;
+            font-size: .7rem!important;
+            border: none;
+            outline: 0;
+            color: #fff;
+            text-align: center;
+            border-radius: .12rem;
+            letter-spacing: 2px;
+            background: #d22018;
+        }
+        .warning-info{
+            width: 100%;
+
+            margin-top: 10%;
+            margin-right: 10%;
+            margin-bottom: 10%;
+            margin-left: 10%;
+
+        }
+        .pay1{
+            width:100%;
+            height:5%;
+            //background-color:red;
+            text-align:center;
+            //position:relative;
+        }
+        .pay1 span{
+            font-size:16px
+        }
+
+        .pay2{
+            width:100%;
+            height:38%;
+            //background-color:blue;
+        }
+        .company-pay {
+            background: #fff;
+            width:100% ! important;
+            height:100% ! important;
+        }
+        .pay-type {
+            //overflow-x: auto;
+            //overflow-y: hidden;
+            padding: 0 0;
+            height:20%;
+            width:100%
+        }
+        .pay-type ul {
+                width: auto;
+                text-align: center;
+                white-space: nowrap;
+                display: block;
+                list-style-type: disc;
+                margin-block-end: 0;
+                margin-inline-start: 0;
+                margin-inline-end: 0px;
+                padding-inline-start: 0;
+
+        }
+         .pay-type ul li {
+            display: inline-block;
+            height: .625rem;
+            margin: 0;
+            line-height: .59375rem;
+            border: 1px solid #ddd;
+            text-align: center;
+            font-size: .375rem;
+            color: #303030;
+            vertical-align: top;
+        }
+        .pay-type ul li.active {
+            background: #d22018;
+            color: #fff;
+            position: relative;
+            border: none;
+        }
+        .pay-bank-list {
+            padding-bottom: 0;
+            width: 100%;
+            margin: 0 ;
+            height:80%;
+        }
+        .pay-bank-list ul{
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 0;
+            height: 100%;
+            width: 100%;
+        }
+        li, ul {
+            list-style: none;
+        }
+        .pay-bank-list ul li.select-li {
+            border: .03125rem solid #d22018;
+        }
+        .pay-bank-list ul li {
+            margin: 0 auto 0;
+            border: .03125rem solid #c9c9c9;
+            border-radius: .09375rem;
+            color: #303030;
+            width: 98%;
+            margin-left:1%;
+            height: 100%;
+        }
+        .pay-bank-list ul li>h5 {
+            height: 20%;
+            line-height: .66875rem;
+            padding-left: .46875rem;
+
+            border-bottom: 1px solid #c9c9c9;
+            display: block;
+            font-size: 20px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+        .pay-bank-list ul li>div {
+            height: 20%;
+            line-height: .95625rem;
+            padding-left: .625rem;
+            font-size: .375rem;
+            position: relative;
+        }
+        .branch-bank{
+            display: block;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+        .pay-bank-list ul li>div>span {
+            width: 1.25rem;
+            height: .5625rem;
+            position: absolute;
+            top: 20%;
+            right: .3125rem;
+            font-size: .3125rem;
+            line-height: .5625rem;
+            background: #d22018;
+            text-align: center;
+            color: #fff;
+            border-radius: .09375rem;
+        }
+        .pay-bank-list ul li :last-child {
+            margin: 0 auto;
+            display: block;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            margin-left:5%;
+        }
+
+        .pay3{
+            width:100%;
+            height:57%;
+
+        }
+
+</style>
 </head>
-<body>
-	
-这是预留页面！暂时还不知道放什么，哈哈哈
+<body >
+     <div class="navbar1">
+        <div class="f1">
+            <i class="arrow-left"></i>
+        </div>
+        <span class="title">充值中心</span>
+        <div></div>
+    </div>
+<!--
+
+
+    <div class="pay">
+        <div style="width:100%;height:100%">
+            <div style="width:100%;height:7%;background-color:red">
+                <div style="width:100%;height:100%">
+                    <div style="width:100%;height:100%;background-color:red">
+
+                            <div style="height:100%;width:25%;float:left;font-size:18px;margin: 0 auto;text-align:center">公司入款</div>
+                            <div style="height:100%;width:25%;float:left;font-size:18px;margin: 0 auto;text-align:center">支付宝</div>
+                            <div style="height:100%;width:25%;float:left;font-size:18px;margin: 0 auto;text-align:center">在线支付</div>
+                            <div style="height:100%;width:25%;float:left;font-size:18px;margin: 0 auto;text-align:center">微信</div>
+                        <div class="am-tabs-default-bar-underline" style="width: 25%; left: 25%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div style="width:100%;height:93%;background-color:red">
+
+            </div>
+        </div>
+
+    </div>
+ -->
+
+
+
+
+
+
+
+
+
+
+<div style="width:100%;height:90%">
+
+    <!-- Swiper -->
+    <div class="swiper-container gallery-thumbs" >
+    <div class="swiper-wrapper" style="text-align:center">
+      <div class="swiper-slide" >公司入款</div>
+      <div class="swiper-slide" >支付宝</div>
+      <div class="swiper-slide">在线支付</div>
+      <div class="swiper-slide">微信</div>
+      <!--
+      <div class="swiper-slide">5</div>
+      <div class="swiper-slide">6</div>
+      <div class="swiper-slide" >7</div>
+      <div class="swiper-slide">8</div>
+      <div class="swiper-slide">9</div>
+      <div class="swiper-slide">10</div>
+      -->
+    </div>
+  </div>
+
+
+  <div class="swiper-container gallery-top">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" >
+                                <div class="pay1">
+                                    <span >余额：0元</span>
+                                </div>
+                                <div class="pay2">
+                                                            <div class="company-pay">
+                                                                <div class="pay-type">
+                                                                    <ul>
+                                                                        <li class="active">微信 支付宝 网银 转银行卡</li>
+                                                                        <li>云闪付转账</li>
+                                                                    </ul>
+                                                                </div>
+
+                                                                    <div class="pay-bank-list" style="display:none">
+                                                                        <ul>
+                                                                            <li class="select-li normal">
+                                                                                <h5>工商银行</h5>
+                                                                                <div>收款人：南宁市岗鸣百货店<span>复制</span></div>
+                                                                                <div><p class="branch-bank">所属支行：南宁市市府支行</p><span>复制</span></div>
+                                                                                <div>卡号：6232712102000184594<span>复制</span></div>
+                                                                                <p>ID4264（转账时请复制此附言，方便客服查询确认）</p>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+
+
+                                                                    <div class="pay-bank-list" >
+                                                                        <ul>
+                                                                            <li class="select-li normal">
+                                                                                <h5>工商银行</h5>
+                                                                                <div>收款人：过奉孝<span>复制</span></div>
+                                                                                <div><p class="branch-bank">所属支行：南宁市市府支行</p><span>复制</span></div>
+                                                                                <div>卡号：6232712102000184594<span>复制</span></div>
+                                                                                <p>ID4264（转账时请复制此附言，方便客服查询确认）</p>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+
+
+                                                            </div>
+                                </div>
+
+                                  <div class="pay3">
+                                        <div style="width:100%;height:40%">
+                                            <div style="height:10%;width:100%;"></div>
+                                            <div class="form-item" style="height:40%;width:90%;margin-left:5%">
+                                                  <label for="bandId" style="position: absolute;top: 50%;transform: translate(0, -50%)">充值金额 :</label>
+                                                  <div  style="width: 60%;position: relative;top: 50%;transform: translate(0, -50%);float:right">
+                                                      <input id="moneyinput1" type="number" placeholder="输入金额" value=""><span>元</span>
+                                                  </div>
+                                              </div>
+
+                                            <div class="select-money-wrap" style="height:40%;width:90%;margin-left:5%"><ul id="ulliclick1"><li>100</li><li>300</li><li>500</li><li>5000</li></ul></div>
+
+                                            <div style="height:10%;width:100%;"></div>
+
+                                           <!--
+                                             <div style="width:80%;height:50%;margin-left:10%">
+                                                  <label for="bandId" style="position: absolute;top: 50%;transform: translate(0, -50%)">充值金额 :</label>
+                                                  <div  style="width: 55%;position: relative;top: 50%;transform: translate(0, -50%);float:right">
+                                                      <input id="moneyinput" type="number" placeholder="输入金额" value="">
+                                                  </div>
+                                              </div>
+
+                                          <div style="width:80%;height:50%;margin-left:10%">
+                                              <ul id="ulliclick"><li>100</li><li>300</li><li>500</li><li>5000</li></ul>
+                                          </div>
+                                           -->
+
+                                        </div>
+                                        <div style="width:100%;height:20%">
+                                            <button class="submit-btn">确认提交</button>
+                                        </div>
+                                        <div style="width:80%;height:40%;margin-left:10%">
+                                            <p>使用公司入款可享受1%入款优惠，<br>网银转账<br>多存多送！！！<br></p>
+                                        </div>
+                                  </div>
+
+
+
+      </div>
+      <div class="swiper-slide"  style="width:100%;height:100%">
+                              <div style="width:90%;height:100%;margin-left:5%">
+                                  <div style="width:100%;height:8%;position: relative;">
+                                      <span style="position: absolute;top: 50%;transform: translate(0, -50%)">余额：0元</span>
+                                  </div >
+                                  <div class="tongdao" style="width:100%;height:20%;position: relative;">
+                                        <h3>通道选择</h3>
+                                      <ul>
+                                          <li>
+                                              <div style="width:75%;height:100%;margin-left:25%;position: relative;">
+                                                  <span style="position: absolute;top: 50%;transform: translate(0, -50%);font-size:16px">支付宝转银行卡</span>
+                                                  </div>
+                                          </li>
+
+
+
+
+
+
+
+
+                                      </ul>
+                                  </div>
+
+                                  <div class="form-item">
+                                      <label for="bandId" style="position: absolute;top: 50%;transform: translate(0, -50%)">充值金额 :</label>
+                                      <div  style="width: 60%;position: relative;top: 50%;transform: translate(0, -50%);float:right">
+                                          <input id="moneyinput2" type="number" placeholder="输入金额" value=""><span>元</span>
+                                      </div>
+                                  </div>
+
+                                  <div class="select-money-wrap"><ul id="ulliclick2"><li>100</li><li>300</li><li>500</li><li>5000</li></ul></div>
+
+
+                                  <div style="width:100%;height:5%"></div>
+                                  <div class="submit-wrap"><button class="submit-btn">确认提交</button></div>
+
+                                    <div class="warning-info"><p>使用公司入款可享受1%入款优惠，<br>网银转账<br>多存多送！！！<br></p></div>
+
+                              </div>
+      </div>
+      <div class="swiper-slide" >
+                              <div style="width:90%;height:100%;margin-left:5%">
+                                  <div style="width:100%;height:8%;position: relative;">
+                                      <span style="position: absolute;top: 50%;transform: translate(0, -50%)">余额：0元</span>
+                                  </div >
+                                  <div class="tongdao" style="width:100%;height:30%;position: relative;">
+                                        <h3>通道选择</h3>
+                                      <ul>
+                                          <li style="height: 50%;">
+                                              <div style="width:75%;height:100%;margin-left:25%;position: relative;">
+                                                  <span style="position: absolute;top: 50%;transform: translate(0, -50%);font-size:16px">支付宝小额wap</span>
+                                                  </div>
+                                          </li>
+                                          <li style="height: 50%;">
+                                              <div style="width:75%;height:100%;margin-left:25%;position: relative;">
+                                                  <span style="position: absolute;top: 50%;transform: translate(0, -50%);font-size:16px">微信小额wap</span>
+                                                  </div>
+                                          </li>
+                                          <li style="height: 50%;">
+                                              <div style="width:75%;height:100%;margin-left:25%;position: relative;">
+                                                  <span style="position: absolute;top: 50%;transform: translate(0, -50%);font-size:16px">支付宝扫码</span>
+                                                  </div>
+                                          </li>
+
+
+
+
+
+
+
+
+                                      </ul>
+                                  </div>
+
+                                  <div class="form-item">
+                                      <label for="bandId" style="position: absolute;top: 50%;transform: translate(0, -50%)">充值金额 :</label>
+                                      <div  style="width: 60%;position: relative;top: 50%;transform: translate(0, -50%);float:right">
+                                          <input id="moneyinput3" type="number" placeholder="输入金额" value=""><span>元</span>
+                                      </div>
+                                  </div>
+
+                                  <div class="select-money-wrap"><ul id="ulliclick3"><li>100</li><li>300</li><li>500</li><li>5000</li></ul></div>
+
+
+                                  <div style="width:100%;height:5%"></div>
+                                  <div class="submit-wrap"><button class="submit-btn">确认提交</button></div>
+
+                                    <div class="warning-info"><p>使用公司入款可享受1%入款优惠，<br>网银转账<br>多存多送！！！<br></p></div>
+
+                              </div>
+
+      </div>
+      <div class="swiper-slide">
+
+                                <div style="width:90%;height:100%;margin-left:5%">
+                                  <div style="width:100%;height:8%;position: relative;">
+                                      <span style="position: absolute;top: 50%;transform: translate(0, -50%)">余额：0元</span>
+                                  </div >
+                                  <div class="tongdao" style="width:100%;height:20%;position: relative;">
+                                        <h3>通道选择</h3>
+                                      <ul>
+                                          <li>
+                                              <div style="width:75%;height:100%;margin-left:25%;position: relative;">
+                                                  <span style="position: absolute;top: 50%;transform: translate(0, -50%);font-size:16px">微信扫码</span>
+                                                  </div>
+                                          </li>
+
+                                      </ul>
+                                  </div>
+
+                                  <div class="form-item">
+                                      <label for="bandId" style="position: absolute;top: 50%;transform: translate(0, -50%)">充值金额 :</label>
+                                      <div style="width: 60%;position: relative;top: 50%;transform: translate(0, -50%);float:right">
+                                          <input id="moneyinput4" type="number" placeholder="输入金额" value=""><span>元</span>
+                                      </div>
+                                  </div>
+
+                                  <div class="select-money-wrap"><ul id="ulliclick4"><li>100</li><li>300</li><li>500</li><li class="money-select">5000</li></ul></div>
+
+
+                                  <div style="width:100%;height:10%"><span style="margin-left:10%;color:red">充值请备注会员账号，不备注不到账  谢谢！</span></div>
+                                  <div class="submit-wrap"><button class="submit-btn">确认提交</button></div>
+
+                                    <div class="warning-info"><p>使用公司入款可享受1%入款优惠，<br>网银转账<br>多存多送！！！<br></p></div>
+
+                              </div>
+      </div>
+      <!--
+        <div class="swiper-slide" >1-1</div>
+      <div class="swiper-slide" >1-1</div>
+      <div class="swiper-slide">1-1</div>
+      <div class="swiper-slide">1-1</div>
+      <div class="swiper-slide" >1-1</div>
+      <div class="swiper-slide" >1-1</div>
+      -->
+    </div>
+    <!-- Add Arrows
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+    -->
+  </div>
+
+
+
+</div>
+  <!-- Swiper JS -->
+  <script src="{% static '/js/swiper.min.js' %}"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs
+      }
+    });
+  </script>
+
+
+
+
+
+
+
+
+<script>
+    var ulliclick = $('#ulliclick>li');
+    ulliclick.click(function(){
+
+        $('li').removeClass('money-select');
+        $(this).addClass('money-select');
+        //alert($(this).text());
+        var text1 = $(this).text();
+        //alert(text1);
+        //var moneyInput = $('#moneyinput');
+        //alert($('#moneyinput').text())
+        //moneyInput.text(text)
+        document.getElementById("moneyinput").value = text1;
+    }
+    )
+
+</script>
+
+<script>
+    var ulliclick = $('#ulliclick1>li');
+    ulliclick.click(function(){
+
+        $('li').removeClass('money-select');
+        $(this).addClass('money-select');
+        var text1 = $(this).text();
+        document.getElementById("moneyinput1").value = text1;
+    }
+    );
+
+    var ulliclick = $('#ulliclick2>li');
+    ulliclick.click(function(){
+
+        $('li').removeClass('money-select');
+        $(this).addClass('money-select');
+        var text1 = $(this).text();
+        document.getElementById("moneyinput2").value = text1;
+    }
+    );
+
+    var ulliclick = $('#ulliclick3>li');
+    ulliclick.click(function(){
+
+        $('li').removeClass('money-select');
+        $(this).addClass('money-select');
+        var text1 = $(this).text();
+        document.getElementById("moneyinput3").value = text1;
+    }
+    );
+
+
+    var ulliclick = $('#ulliclick4>li');
+    ulliclick.click(function(){
+
+        $('li').removeClass('money-select');
+        $(this).addClass('money-select');
+        var text1 = $(this).text();
+        document.getElementById("moneyinput4").value = text1;
+    }
+    );
+
+
+</script>
+
+
 </body>
 
 </html>

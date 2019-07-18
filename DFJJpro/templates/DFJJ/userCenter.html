@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>用户中心</title>
 
-    <script type="text/javascript" src="https://m.wukonglicai.com/extra/userRedAccount/js/rem.js"></script>
+    <script type="text/javascript" src="{% static '/javascript/rem.js' %}"></script>
 	<script type="text/javascript" src="{%static '/js/public.js' %}"></script>
-	<script type="text/javascript" src="https://m.wukonglicai.com/extra/userRedAccount/js/jquery.min.js"></script>
+	<script type="text/javascript" src="{% static '/javascript/jquery.min.js' %}"></script>
 	<!-- 
 	
 	<script src="https://m.wukonglicai.com/javascript/jquery.drag.js"></script>
@@ -20,11 +20,11 @@
 	<script type="text/javascript" src="https://m.wukonglicai.com/javascript/deposit/upgrade.js"></script>
 	-->
 
-	<link rel="stylesheet" href="https://m.wukonglicai.com/extra/userRedAccount/css/global.css" />
-	<link rel="stylesheet" href="{%static '/DFJJ/userCenter/css/my-account.css' %}" />
-	<link rel="stylesheet" href="https://m.wukonglicai.com/css/base.css" />
-	<link rel="stylesheet" href="https://m.wukonglicai.com/css/zhezhao.css?t=20181030">
-	<link rel="stylesheet" type="text/css" href="https://m.wukonglicai.com/extra/integral/css/nav.css?t=20181030" />
+	<link rel="stylesheet" href="{% static '/css/global.css' %}"/>
+	<link rel="stylesheet" href="{% static '/DFJJ/userCenter/css/my-account.css' %}" />
+	<link rel="stylesheet" href="{% static '/css/base.css' %}" />
+	<link rel="stylesheet" href="{% static '/css/zhezhao.css' %}"/>
+	<link rel="stylesheet" type="text/css" href="{% static '/extra/integral/css/nav.css' %}"/>
 	<!-- 
 	<link rel="stylesheet" href="https://m.wukonglicai.com/extra/userRedAccount/css/swiper.min.css?t=20181030" />
 	-->
@@ -91,10 +91,12 @@
 				<div id="container">
 				<div class="m-mact-infobox">
 				<div class="m-header">
-				<span class="n-zs-yc"><img src="https://m.wukonglicai.com/extra/userRedAccount/img/mact-yc.png" alt=""></span>
+				<span class="n-zs-yc"><img src="{% static '/extra/userRedAccount/img/mact-yc.png' %}" alt=""></span>
 				<div class="m-main">
 				<dl>
-				<dt><span class="n-more"><img src="https://m.wukonglicai.com/extra/userRedAccount/img/icon-more.png" alt=""></span><span class="n-wk" id="tosetting"><img src="https://m.wukonglicai.com/extra/userRedAccount/img/user-tx.png" alt=""></span></dt>
+				<dt>
+					<span class="n-more"><img src="{% static '/extra/userRedAccount/img/icon-more.png' %}" alt=""></span>
+					<span class="n-wk" id="tosetting"><img src="{% static '/extra/userRedAccount/img/user-tx.png' %}" alt=""></span></dt>
 				<dd>
 					<!-- -->
 					{% if request.session.is_login %}
@@ -110,7 +112,7 @@
 				</dd>
 				</dl>
 				</div>
-				<span class="n-msg" id="tomsg"><img src="https://m.wukonglicai.com/extra/userRedAccount/img/icon-msg.png" alt=""><em id="msgcount" style="display:none;"></em></span>
+				<span class="n-msg" id="tomsg"><img src="{% static '/extra/userRedAccount/img/icon-msg.png' %}" alt=""><em id="msgcount" style="display:none;"></em></span>
 				</div>
 				<div class="m-mact-total">
 				
@@ -139,7 +141,7 @@
 				
 				</dl>
 				<dl onclick="toTotalAssets('accumulatedIncome')">
-				<dt>今日预计盈利<img name="showExplainImg" onclick="showExplain(10)" style="width: 0.3rem; margin-left: 0.1rem;" src="https://m.wukonglicai.com/images/exclamation_mark2.png"></dt>
+				<dt>今日预计盈利<img name="showExplainImg" onclick="showExplain(10)" style="width: 0.3rem; margin-left: 0.1rem;" src="{% static '/images/exclamation_mark2.png' %}"></dt>
 				{% if payToday %}
 				<dd id="accumulatedIncome">{{ payToday }}</dd>
 				{% else %}
@@ -201,7 +203,7 @@
 		    <a href="/" class="t-jTxt">
 		        <dl>
 		            <dt class="active-foot active-tj">
-		            <img src="https://m.wukonglicai.com/images/s-yActive.png">
+		            <img src="{% static '/images/s-yActive.png' %}">
 		            </dt>
 		            <dd><p>首页 </p></dd>
 		        </dl>
@@ -209,23 +211,23 @@
 		    <a href="/maintz" class="l-cTxt">
 		        <dl>
 		            <dt class="xiabianlanlc">
-		            <img src="https://m.wukonglicai.com/images/t-z.png">
+		            <img src="{% static '/images/t-z.png' %}">
 		            </dt>
 		            <dd><p>投资</p></dd>
 		        </dl>
 		    </a>
-		    <a href="/logout" class="t-qTxt">
+		    <a href="/elseinfo" class="t-qTxt">
 		        <dl>
 		            <dt class="xiabianlantq">
-		            <img src="https://m.wukonglicai.com/images/k-f.png">
+		            <img src="{% static '/images/k-f.png' %}">
 		            </dt>
-		            <dd><p>退出</p></dd>
+		            <dd><p>客服</p></dd>
 		        </dl>
 		    </a>
 		    <a href="/userCenter" class="myTxt">
 		        <dl>
 		            <dt class="xiabianlanwd">
-		            <img src="https://m.wukonglicai.com/images/m-y.png">
+		            <img src="{% static '/images/m-y.png' %}">
 		            </dt>
 		            <dd><p>我的</p></dd>
 		        </dl>

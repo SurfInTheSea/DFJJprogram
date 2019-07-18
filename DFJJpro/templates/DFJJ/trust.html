@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>安全保障</title>
-    <script async="" src="https://assets.growingio.com/2.1/gio.js"></script>
+    <script async="" src="{% static '/javascript/gio.js' %}"></script>
     <script type="text/javascript" src="{% static '/trust/js/rem.js' %}"></script>
 	<link rel="stylesheet" href="{%  static '/trust/css/safe_newapp_base.css' %}" />
 	<link rel="stylesheet" href="{% static '/trust/css/safe_newapp_my_account.css' %}" />
@@ -19,7 +19,7 @@
 
 
 
-    <link rel="stylesheet" type="text/css" href="https://m.wukonglicai.com/extra/integral/css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="{% static '/extra/integral/css/nav.css' %}"/>
 
  
 </head>
@@ -191,11 +191,12 @@
 
 
 
+
 <div style="" id="show" class="fixed">
     <a href="/" class="t-jTxt">
         <dl>
             <dt class="active-foot active-tj">
-            <img src="https://m.wukonglicai.com/images/s-yActive.png">
+            <img src="{% static '/images/s-yActive.png' %}">
             </dt>
             <dd><p>首页 </p></dd>
         </dl>
@@ -203,29 +204,28 @@
     <a href="/maintz" class="l-cTxt">
         <dl>
             <dt class="xiabianlanlc">
-            <img src="https://m.wukonglicai.com/images/t-z.png">
+            <img src="{% static '/images/t-z.png' %}">
             </dt>
             <dd><p>投资</p></dd>
         </dl>
     </a>
-    <a href="/logout" class="t-qTxt">
+    <a href="/elseinfo" class="t-qTxt">
         <dl>
             <dt class="xiabianlantq">
-            <img src="https://m.wukonglicai.com/images/k-f.png">
+            <img src="{% static '/images/k-f.png' %}">
             </dt>
-            <dd><p>退出</p></dd>
+            <dd><p>客服</p></dd>
         </dl>
     </a>
     <a href="/userCenter" class="myTxt">
         <dl>
             <dt class="xiabianlanwd">
-            <img src="https://m.wukonglicai.com/images/m-y.png">
+            <img src="{% static '/images/m-y.png' %}">
             </dt>
             <dd><p>我的</p></dd>
         </dl>
     </a>
 </div>
-
 
 
 

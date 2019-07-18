@@ -7,27 +7,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>大发基金</title>
-    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/rem.js"></script>
-    <link rel="stylesheet" href="https://m.wukonglicai.com/css/global.css"/>
-    <link rel="stylesheet" href="https://m.wukonglicai.com/css/new_swiper.min.css"/>
+    <script type="text/javascript" src="{% static '/javascript/rem.js' %}"></script>
+    <link rel="stylesheet" href="{% static '/css/global.css' %}"/>
+    <link rel="stylesheet" href="{% static '/css/new_swiper.min.css' %}"/>
     <link rel="stylesheet" href="{% static '/css/home.css' %}"/>
-    <link rel="stylesheet" href="https://m.wukonglicai.com/extra/getStarted/css/xstk.css"/>
-    <link rel="stylesheet" href="https://m.wukonglicai.com/css/deposit/withdrawals.css"/>
-    <link rel="stylesheet" href="https://m.wukonglicai.com/javascript/deposit/layer/need/layer.css"/>
-    <link rel="stylesheet" href="https://m.wukonglicai.com/css/zhezhao.css?20181013"/>
-    <link rel="stylesheet" href="https://m.wukonglicai.com/css/privacy-play-style.css">
-    <link rel="stylesheet" href="https://m.wukonglicai.com/css/reconmmend_home.css">
-    <script src="https://m.wukonglicai.com/javascript/jquery-1.7.2.min.js"></script>
-    <script src="https://m.wukonglicai.com/javascript/jquery.drag.js"></script>
-    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/swiper-3.3.1.jquery.min.js"></script>
-    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/jsrender.min.js"></script>
-    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/growingSDK.js"></script>
-    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/deposit/layer/layer.js"></script>
-    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/deposit/upgrade.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://m.wukonglicai.com/extra/integral/css/nav.css"/>
-    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/deposit/alertMessage.js"></script>
-    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/public.js"></script>
-    <script type="text/javascript" src="https://m.wukonglicai.com/javascript/deposit/privacy.js"></script>
+    <link rel="stylesheet" href="{% static '/extra/getStarted/css/xstk.css' %}"/>
+    <link rel="stylesheet" href="{% static '/css/deposit/withdrawals.css' %}"/>
+    <!--
+        <link rel="stylesheet" href="https://m.wukonglicai.com/css/deposit/layer/need/layer.css"/>
+    -->
+    <link rel="stylesheet" href="{% static '/css/zhezhao.css' %}"/>
+    <link rel="stylesheet" href="{% static '/css/privacy-play-style.css' %}">
+    <link rel="stylesheet" href="{% static '/css/reconmmend_home.css' %">
+    <script src="{% static '/javascript/jquery-1.7.2.min.js' %}"></script>
+    <script src="{% static '/javascript/jquery.drag.js' %}"></script>
+    <script type="text/javascript" src="{% static '/javascript/swiper-3.3.1.jquery.min.js' %}"></script>
+    <script type="text/javascript" src="{% static '/javascript/jsrender.min.js' %}"></script>
+    <script type="text/javascript" src="{% static '/javascript/growingSDK.js' %}"></script>
+    <script type="text/javascript" src="{% static '/javascript/deposit/layer/layer.js' %}"></script>
+    <script type="text/javascript" src="{% static '/javascript/deposit/upgrade.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static '/extra/integral/css/nav.css' %}"/>
+    <script type="text/javascript" src="{% static '/javascript/deposit/alertMessage.js' %}"></script>
+    <script type="text/javascript" src="{% static '/javascript/public.js' %}"></script>
+    <script type="text/javascript" src="{% static '/javascript/deposit/privacy.js' %}"></script>
 
 <style type="text/css">
         #icoInvFixe {
@@ -200,8 +202,8 @@
 <div id="wrap">
     <div class="swiper-container">
         <ul class="swiper-wrapper">
-            <li class="swiper-slide"><a href="http://dfpt.com/"><img src="https://static.9f.cn/isp/img/20190313144613.jpg" onerror="this.src='/img/banner/img-defcult.jpg'" alt=""></a></li>
-            <li class="swiper-slide"><a href="http://dfpt.com/"><img src="https://m.wukonglicai.com/img/banner/loadAPP_banner.png" onerror="this.src='/img/banner/img-defcult.jpg'" alt=""></a>
+            <li class="swiper-slide"><a href="http://dfpt.com/"><img src="{% static '/img/banner/20190313144613.jpg' %}" onerror="this.src='/img/banner/img-defcult.jpg'" alt=""></a></li>
+            <li class="swiper-slide"><a href="http://dfpt.com/"><img src="{% static '/img/banner/loadAPP_banner.png' %}" onerror="this.src='/img/banner/img-defcult.jpg'" alt=""></a>
             </li>
         </ul>
         <div class="swiper-pagination n-prc-pag"></div>
@@ -216,21 +218,21 @@
     </script>
     <div id="container">
         <ul class="m-nav">
-            <li onclick="jumpTo('/newguide')"><em><img src="https://m.wukonglicai.com/img/ico_nav1.png" alt=""></em><span>新手专区</span>
+            <li onclick="jumpTo('/newguide')"><em><img src="{% static '/img/ico_nav1.png' %}" alt=""></em><span>新手专区</span>
             </li>
-            <li onclick="jumpTo('/trust')"><em><img src="https://m.wukonglicai.com/img/aqbz.png" alt=""></em><span>安全保障</span>
+            <li onclick="jumpTo('/trust')"><em><img src="{% static '/img/aqbz.png' %}" alt=""></em><span>安全保障</span>
             </li>
-            <li onclick="jumpTo('/userCenter')"><em><img src="https://m.wukonglicai.com/img/ico_nav1.png" alt=""></em><span>提取现金</span>
+            <li onclick="jumpTo('/userCenter')"><em><img src="{% static '/img/ico_nav1.png' %}" alt=""></em><span>提取现金</span>
             </li>
 
         </ul>
         <ul class="m-nav">
 
-            <li><a href="http://dfpt.com/"><em><img src="https://m.wukonglicai.com/img/ico_nav1.png" alt=""></em><span>大发官网</span></a>
+            <li><a href="http://dfpt.com/"><em><img src="{% static '/img/ico_nav1.png' %}" alt=""></em><span>大发官网</span></a>
             </li>
-            <li onclick="jumpTo('/userCenter')"><em><img src="https://m.wukonglicai.com/img/ico_nav1.png" alt=""></em><span>当日收益</span>
+            <li onclick="jumpTo('/userCenter')"><em><img src="{% static '/img/ico_nav1.png' %}" alt=""></em><span>当日收益</span>
             </li>
-             <li onclick="jumpTo('/elseinfo')"><em><img src="https://m.wukonglicai.com/img/informationDdisclosure.png" alt=""></em><span>充值渠道</span>
+             <li onclick="jumpTo('/elseinfo')"><em><img src="{% static '/img/informationDdisclosure.png' %}" alt=""></em><span>充值渠道</span>
             </li>
         </ul>
           <!-- Swiper -->
@@ -248,7 +250,7 @@
                             </div>
                             <div class="n-main">
                                 <div class="n-box">
-                                    <p class="n-mag">期望年化回报率<img name="showExplainImg" onclick="showExplain(1)" style="width: 0.3rem; margin-left: 0.1rem;" src="https://m.wukonglicai.com/images/exclamation_mark2.png"></p>
+                                    <p class="n-mag">期望年化回报率<img name="showExplainImg" onclick="showExplain(1)" style="width: 0.3rem; margin-left: 0.1rem;" src="{% static '/images/exclamation_mark2.png' %}"></p>
                                         
                                             
                                                 <h2 class="n-int-rate">{{ programInfo.payBack }}<em>%</em></h2>
@@ -258,7 +260,7 @@
                                     
 
                                             <div class="n-qual">
-                                                <span>封闭期{{ programInfo.payDay }}天<p style="display: inline-block;"><img name="showExplainImg" onclick="showExplain(2)" style="width: 0.3rem; margin-left: 0.1rem;" src="https://m.wukonglicai.com/images/exclamation_mark2.png"></p></span>
+                                                <span>封闭期{{ programInfo.payDay }}天<p style="display: inline-block;"><img name="showExplainImg" onclick="showExplain(2)" style="width: 0.3rem; margin-left: 0.1rem;" src="{% static '/images/exclamation_mark2.png' %}"></p></span>
                                                 <span>最低{{ programInfo.minPay }}元起</span>
                                                 
                                                     <span>出借无上限</span>
@@ -321,7 +323,7 @@
         </div>
     </div>
     <footer class="foot-cyp">
-        <div style="padding:0 .6rem"><img src="https://m.wukonglicai.com/images/head-tips.png" alt=""></div>
+        <div style="padding:0 .6rem"><img src="{% static '/images/head-tips.png' %}" alt=""></div>
     </footer>
 </div>
 
@@ -334,7 +336,7 @@
     <a href="/" class="t-jTxt">
         <dl>
             <dt class="active-foot active-tj">
-            <img src="https://m.wukonglicai.com/images/s-yActive.png">
+            <img src="{% static '/images/s-yActive.png' %}">
             </dt>
             <dd><p>首页 </p></dd>
         </dl>
@@ -342,7 +344,7 @@
     <a href="/maintz" class="l-cTxt">
         <dl>
             <dt class="xiabianlanlc">
-            <img src="https://m.wukonglicai.com/images/t-z.png">
+            <img src="{% static '/images/t-z.png' %}">
             </dt>
             <dd><p>投资</p></dd>
         </dl>
@@ -350,7 +352,7 @@
     <a href="/elseinfo" class="t-qTxt">
         <dl>
             <dt class="xiabianlantq">
-            <img src="https://m.wukonglicai.com/images/k-f.png">
+            <img src="{% static '/images/k-f.png' %}">
             </dt>
             <dd><p>客服</p></dd>
         </dl>
@@ -358,7 +360,7 @@
     <a href="/userCenter" class="myTxt">
         <dl>
             <dt class="xiabianlanwd">
-            <img src="https://m.wukonglicai.com/images/m-y.png">
+            <img src="{% static '/images/m-y.png' %}">
             </dt>
             <dd><p>我的</p></dd>
         </dl>
@@ -367,7 +369,7 @@
 
 
 
-<script type="text/javascript" src="https://m.wukonglicai.com/javascript/public.js"></script>
+<script type="text/javascript" src="{% static '/javascript/public.js' %}"></script>
 
 
  {% if messages %}

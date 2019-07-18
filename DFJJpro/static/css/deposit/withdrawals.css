@@ -1,0 +1,365 @@
+.rechargeBank{
+	width: 100%;
+	height: 1.62rem;
+	display: -webkit-box; 
+	display: -moz-box; 
+	display: -ms-flexbox;
+	display: -webkit-flex; 
+	display: flex; 
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	-ms-flex-align:center;
+	align-items:center;
+	background: #fff;
+}
+.rechargeBank > div:nth-child(1){
+	width: 0.7rem;
+	height: 0.7rem;
+	margin-left: 0.24rem;
+}
+.rechargeBank > div:nth-child(1) > img{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.rechargeBank > div:nth-child(2){
+	-webkit-box-flex: 1; 
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	margin-left: 0.24rem;
+}
+.rechargeBank > div:nth-child(2) > p{
+	padding-bottom: 0.04rem;
+	font-size: 0.28rem;
+}
+.rechargeBank > div:nth-child(2) > span{
+	padding-top: 0.04rem;
+	color: #888;
+	font-size: 0.24rem;
+}
+.rechargeBank > div:nth-child(3){
+	width: 0.1rem;
+	height: 0.5rem;
+	margin-right: 0.42rem;
+}
+.rechargeBank > div:nth-child(3) > img{
+	width: 0.1rem;
+	height: 0.1rem;
+}
+.rechargeInfo{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	margin-top: 0.24rem;
+}
+.rechargeInfo > p{
+   width: 100%;
+   height: 0.64rem;
+   line-height: 0.64rem;
+   padding-left: 0.28rem;
+   font-size: 0.24rem;
+   color: #888;
+}
+.rechargeInfo > div:nth-of-type(1){
+	display: -webkit-box; 
+	display: -moz-box; 
+	display: -ms-flexbox;
+	display: -webkit-flex; 
+	display: flex; 
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	-ms-flex-align:center;
+	align-items:center;
+	height: 1.8rem;
+}
+.rechargeInfo > div:nth-of-type(1) > p{
+	width: 0.34rem;
+	height: 0.78rem;
+	line-height: 0.78rem;
+	margin-left: 0.3rem;
+	font-size:0.56rem ;
+	color: #666666;
+}
+.rechargeInfo > div:nth-of-type(1) > input{
+	width: 0;
+	flex: 1;
+	margin-left: 0.2rem;
+	outline: none;
+	border: none;
+	font-size: 0.32rem;
+	padding: 0.74rem 0;
+}
+.rechargeInfo > div:nth-of-type(1) > img {
+	width:0.32rem ;
+	height: 0.32rem;
+	margin-right: 0.3rem;
+}
+.rechargeInfo > div:nth-of-type(1) > span {
+    font-size: 0.28rem;
+    width:1.32rem ;
+	height:auto;
+    color: #1CC7B9;
+	margin-right: 0.3rem;
+}
+.rechargeInfo > div:nth-of-type(2){
+	width: 100%;
+	height: 0.64rem;
+}
+.rechargeInfo > div:nth-of-type(2) > p{
+	line-height: 0.64rem;
+	margin-left: 0.28rem;
+	font-size: 0.24rem;
+    color:#888 ;
+}
+.warning{
+	width: 100%;
+	position: fixed;
+	bottom: 1.5rem;
+	left: 0;
+	font-size:0.2rem;
+	color: #ccc;
+	text-align: center;
+}
+.footer{
+	width: 100%;
+	height: 1.24rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 200;
+	border-top:1px solid #ddd;
+}
+.footer p{
+	width: 5.9rem;
+	height: 0.88rem;
+	-webkit-border-radius:0.04rem;
+	-moz-border-radius:0.04rem;
+	border-radius: 0.04rem;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 0.88rem;
+	margin: 0.16rem auto;
+}
+.footerPOn{
+	background: #1cc7b9;
+	color: #fff;
+}
+.footerPOff{
+	background: #EFEFEF;
+	color: #999;
+}
+/*添加银行卡*/
+.addBackList{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 202;
+}
+.backListTitle{
+	height: 0.9rem;
+	background: #fff;
+	position: relative;
+	border-bottom:1px solid #ddd;
+}    
+.backListTitle > p{
+	line-height: 0.9rem;
+	text-align: center;
+	font-size: 0.28rem;
+	color: #888;
+}
+.backListTitle > img{
+	width: 0.27rem;
+	height: 0.27rem;
+	position: absolute;
+	right: 0.3rem;
+	top: 0.31rem;
+}
+.backListMain{
+	width: 100%;
+	height:4.8rem;
+	background: #fff;
+	overflow-y: scroll;
+}
+.listMainL{
+	height: 1.6rem;
+	display: -webkit-box; 
+	display: -moz-box; 
+	display: -ms-flexbox;
+	display: -webkit-flex; 
+	display: flex; 
+    align-content: flex-start;
+   	border-bottom: 1px solid #DDDDDD;
+}
+.listMainLs {
+    height: 1.6rem;
+	display: -webkit-box; 
+	display: -moz-box; 
+	display: -ms-flexbox;
+	display: -webkit-flex; 
+	display: flex; 
+   	-webkit-box-align:center;
+	-webkit-align-items:center;
+	-ms-flex-align:center;
+	align-items:center;
+}
+.listMainR{
+	-webkit-box-flex: 1; 
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	display: -webkit-box; 
+	display: -moz-box; 
+	display: -ms-flexbox;
+	display: -webkit-flex; 
+	display: flex; 
+	padding-right: 0.3rem;
+   	-webkit-box-align:flex-end;
+	-webkit-align-items:center;
+	-ms-flex-align:center;
+	align-items:center;
+   	justify-content: flex-end;
+   	-webkit-justify-content: flex-end;
+} 
+.listMainR img{
+	display: none;
+}
+.listMainLs img{
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	-ms-flex-align:center;
+	align-items:center;
+	width:0.64rem;
+	height: 0.64rem;
+	margin-left: 0.3rem;
+}
+.listMainLsNode{
+   	-webkit-box-flex: 1; 
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+    display: -webkit-box; 
+	display: -moz-box; 
+	display: -ms-flexbox;
+	display: -webkit-flex; 
+	display: flex; 
+    flex-direction: column;
+}
+.listMainLsNode p{
+	font-family: PingFangSC-Regular;
+	font-size: .3rem;
+	color: #666666;
+	padding: 0.05rem 0 0 0.15rem ;
+}
+.listMainLsNode .btm-title{
+	font-size:0.24rem ;
+    color: #888;
+    padding: 0.05rem 0 0 0.15rem ;
+}
+.newBank{
+	width: 100%;
+	margin: 0 auto;
+	display: -webkit-box; 
+	display: -moz-box; 
+	display: -ms-flexbox;
+	display: -webkit-flex; 
+	display: flex; 
+	background: #fff;
+	border-bottom: 1px solid #DDDDDD;
+}
+.newBank img:nth-child(1){
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-top: 0.31rem;
+	margin-left: 0.4rem;
+}
+.newBank p:nth-child(2){
+	display: -webkit-box; 
+	display: -moz-box; 
+	display: -ms-flexbox;
+	display: -webkit-flex; 
+	display: flex; 
+	-webkit-box-align: center;
+	-webkit-align-content:center;
+	align-content:center;
+	align-items: center;
+	flex: 1;
+	margin-left: 0.26rem;
+	height: 1rem;
+	font-family: PingFangSC-Regular;
+	font-size: .3rem;
+	color: #888888;
+}
+.shade{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 201
+}
+.moveBox {
+	display: none;
+	position: fixed;
+	top:0;
+	bottom: 0;
+	width: 100%;
+	z-index:999;
+}
+.moveMark {
+	position: fixed;
+	top:0;
+	bottom: 0;
+	width: 100%;
+	background: #000000;
+	opacity: .5;
+}
+.moveMain {
+	position: fixed;
+	top:40%;
+	width: 70%;
+	margin-left: 15%;
+	background: #fff;
+	border-radius: 15px;
+}
+.moveMain p {
+	font-size: 32px;
+	text-align: center;
+	padding-top: 10px;
+}
+.moveMain button {
+	text-align: center;
+	font-size: .4rem;
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: .4rem;
+	margin-top: .4rem;
+	padding: .1rem 0;
+	border-radius: .07rem;
+	color: #fff;
+	background: #1cc7b9;
+}
+.lg-icon {
+	position: absolute;
+	right: .6rem;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: .1rem;
+	height: .2rem;
+    background: url("../../../images/lg-icon.png") no-repeat;
+	background-size: 100% 100%;
+}
+.bankName {
+	font-family: PingFangSC-Regular;
+	font-size: .3rem;
+	color: #666666;
+}
+.getbankName {
+	font-family: PingFangSC-Regular;
+	font-size: .3rem;
+	color: #666666;
+}

@@ -1,0 +1,82 @@
+ /*---------------------------------
+ | 隐私弹框   start                   |
+  ---------------------------------*/
+ .lay-privacy {
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     z-index: 10001;
+     left: 0;
+     top: 0;
+ }
+ .lay-privacy .n-mask {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, .4);
+ }
+ .privacy-box {
+     position: absolute;
+     width: 6.5rem;
+     height: 7.48rem;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     background-color: #fff;
+     padding: .6rem .3rem;
+     box-sizing: border-box;
+     border-radius:.2rem;
+ }
+ .privacy-box-tit {
+     margin-bottom: .3rem;
+     font-size: .36rem;
+     text-align: center;
+     line-height: .5rem;
+     color: #333;
+ }
+ .privacy-box-content {
+     padding: 0 .15rem;
+     height: 4.2rem;
+     -webkit-overflow-scrolling: touch;
+     overflow-y: auto;
+ }
+ .privacy-box-content li {
+     margin-bottom: .3rem;
+     color: #888;
+     font-size: .26rem;
+     line-height: .4rem;
+ }
+ .privacy-box-btns {
+     display: flex;
+     justify-content: space-between;
+     margin-top: .4rem;
+ }
+ .privacy-box-btns .n-btn {
+     width: 2.8rem;
+     height: .88rem;
+     box-sizing: border-box;
+     font-size: .36rem;
+     -webkit-border-radius: .44rem;
+     -moz-border-radius: .44rem;
+     border-radius: .44rem;
+ }
+ .privacy-box-btns .n-btn1 {
+     border: #1CC7B9 solid 1px;
+     color: #1CC7B9;
+     background-color: transparent;
+ }
+ .privacy-box-btns .n-btn2 {
+     background: #1CC7B9;
+     color: #fff;
+ }
+ #parivacyList {
+ 	height: 100%;
+ 	-webkit-overflow-scrolling: touch;
+ 	overflow: hidden;
+ 	overflow-y: auto;
+ }
+ #privacyIframe {
+ 	width: 100%;
+ 	height: 100%;
+ }
+ /*---------------end----------------*/
