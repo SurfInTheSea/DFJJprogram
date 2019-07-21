@@ -38,6 +38,8 @@ urlpatterns = [
     url(r'^programDetails/(?P<pk>[0-9]+)/$', views.programDetails, name='programDetails'),
     url('^programDetails/(?P<pk>[0-9]+)/buyProgramDetails', views.buyProgramDetails, name='buyProgramDetails'),
     url('^personalProgramDetails', views.personalProgramDetails, name='personalProgramDetails'),
+    url('^register1', views.register1, name='register1'),
+    url('^login1', views.login1, name='login1'),
 
 
 ]
