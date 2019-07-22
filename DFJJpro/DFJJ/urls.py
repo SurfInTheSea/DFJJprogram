@@ -40,6 +40,7 @@ urlpatterns = [
     url('^personalProgramDetails', views.personalProgramDetails, name='personalProgramDetails'),
     url('^register1', views.register1, name='register1'),
     url('^login1', views.login1, name='login1'),
+    url('^loginYou', views.loginYou, name='loginYou'),
 
 
 ]

@@ -20,6 +20,9 @@ def index(request):
     return render(request, 'DFJJ/index.html', {'programInfos':programInfos})
 	#return render(request, 'DFJJ/index.html',  {'programInfos':programInfos} )
 
+def loginYou(request):
+    return render(request, 'login/loginYou.html', {})
+
 def login1(request):
     #return render(request, 'login/login1.html', {})
     if request.session.get('is_login', None):
